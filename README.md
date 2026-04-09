@@ -38,7 +38,7 @@ Then recompile.
 ## Execution
 
 ```bash
-./cub3d Maps/[map.ber]
+./cub3d Maps/[map.cub]
 ```
 
 ## Authors
