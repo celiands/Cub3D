@@ -1,5 +1,7 @@
 # Cub3D
 
+![Demo of Cub3D](Assets/demo.gif)
+
 ## Description
 
 Cub3D is a project developed at 42 Paris in a team of two.  
