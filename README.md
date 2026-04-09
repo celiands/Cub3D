@@ -9,11 +9,31 @@ Raycasting consists of casting rays from the player’s point of view onto a 2D 
 
 To optimize performance, we use the **DDA (Digital Differential Analyzer)** algorithm, which allows efficient grid traversal without checking every point.
 
+## Requirements
+
+This project works on **Linux**.
+
+It can also run on Windows using **WSL (Windows Subsystem for Linux)** with a Linux distribution
+
 ## Compilation
 
 ```bash
 make all
 ```
+
+If you encounter this error:
+
+```bash
+make: *** [Makefile:40: minilibx-linux/libmlx.a] Error 2
+```
+
+Run the following command:
+
+```bash
+chmod +x minilibx-linux/configure
+```
+
+Then recompile.
 
 ## Execution
 
@@ -24,4 +44,8 @@ make all
 ## Authors
 
 - Noâm Gauthreau--Massela  
-- Célian de Segonzac
+- Celian de Segonzac
+
+## Credits
+
+This project uses the **MiniLibX** graphics library.
