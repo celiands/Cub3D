@@ -43,7 +43,7 @@ Then recompile.
 
 ## Authors
 
-- Noâm Gauthreau--Massela  
+- Noam Gauthreau--Massela  
 - Celian de Segonzac
 
 ## Credits
