@@ -1,0 +1,27 @@
+# Cub3D
+
+## Description
+
+Cub3D is a project developed at 42 Paris in a team of two.  
+The goal is to recreate a game engine inspired by Wolfenstein 3D using the **raycasting** technique.
+
+Raycasting consists of casting rays from the player’s point of view onto a 2D map to detect walls and create a 3D-like perspective.
+
+To optimize performance, we use the **DDA (Digital Differential Analyzer)** algorithm, which allows efficient grid traversal without checking every point.
+
+## Compilation
+
+```bash
+make all
+```
+
+## Execution
+
+```bash
+./cub3d Maps/[map.ber]
+```
+
+## Authors
+
+- Noâm Gauthreau--Massela  
+- Célian de Segonzac
