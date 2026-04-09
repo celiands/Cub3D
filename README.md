@@ -23,9 +23,7 @@ make all
 
 If you encounter this error:
 
-```bash
-make: *** [Makefile:40: minilibx-linux/libmlx.a] Error 2
-```
+> make: *** [Makefile:40: minilibx-linux/libmlx.a] Error 2
 
 Run the following command:
 
